@@ -10,7 +10,7 @@ namespace ConsoleBasicProgramming
     {
         static void Main()
         {
-            DecisionControlsSyntax();
+           // DecisionControlsSyntax();
 
             IfElseSample();
 
