@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DecisionControls.cs" />
+    <Compile Include="LoopingControl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programmings_day2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
