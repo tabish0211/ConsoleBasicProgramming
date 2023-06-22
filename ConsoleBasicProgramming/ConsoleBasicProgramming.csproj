@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array.cs" />
     <Compile Include="DecisionControls.cs" />
     <Compile Include="LoopingControl.cs" />
     <Compile Include="Program.cs" />
