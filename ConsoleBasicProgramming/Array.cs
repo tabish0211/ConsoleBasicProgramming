@@ -10,7 +10,7 @@ namespace ConsoleBasicProgramming
     {
         static void Main()
         {
-            //this is a test checkin
+          
             Console.WriteLine("Enter the size of an array");
             int size = Convert.ToInt32(Console.ReadLine());
 
