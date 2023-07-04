@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="ConstructorDemo.cs" />
     <Compile Include="DecisionControls.cs" />
+    <Compile Include="EntryPoint.cs" />
     <Compile Include="LoopingControl.cs" />
     <Compile Include="MethdosDemo.cs" />
+    <Compile Include="NonStaticMethodsDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programmings_day2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
