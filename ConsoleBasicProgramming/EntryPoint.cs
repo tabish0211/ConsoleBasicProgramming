@@ -12,7 +12,22 @@ namespace ConsoleBasicProgramming
         {
            // BankDemo obj = new BankDemo();//constructor without parameter --Default COnstructor
             BankDemo obj = new BankDemo(2001,100);
-            obj.ShowAccount();
+            //obj.ShowAccount();
+
+            Console.WriteLine("Enter the amount to be save");
+            int amount = Convert.ToInt32(Console.ReadLine());
+
+            //obj.SetAmount(amount);
+            //obj.ShowAccount();
+
+            obj.Amount = amount;
+            obj.CustomerId = 3001;
+             amount = obj.Amount;//obj.GetAmount();
+            int customerId = obj.CustomerId;
+
+            Console.WriteLine($"Welcome to mybank customer Id: {customerId} and  " +
+                $"amount currently in your account is {amount}");
+
             Console.ReadLine();
         }
 
