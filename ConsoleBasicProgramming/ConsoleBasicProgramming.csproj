@@ -47,6 +47,8 @@
     <Compile Include="ConstructorDemo.cs" />
     <Compile Include="DecisionControls.cs" />
     <Compile Include="EntryPoint.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="InheritanceAndConstructor.cs" />
     <Compile Include="LoopingControl.cs" />
     <Compile Include="MethdosDemo.cs" />
     <Compile Include="NonStaticMethodsDemo.cs" />

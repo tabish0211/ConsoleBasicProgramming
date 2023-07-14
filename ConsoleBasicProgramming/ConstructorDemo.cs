@@ -12,12 +12,37 @@ namespace ConsoleBasicProgramming
         private int _customerId;//2001
 
         //to intialize object data
-        public BankDemo(int customerId, int amount)
+
+
+        //constructor overloading
+        public BankDemo()
+        {
+            _customerId = 1001;
+            _amount = 100;
+
+        }
+        public BankDemo(int customerId)
         {
             _customerId = customerId;
+            
+        }
+
+        public BankDemo(int customerId, int amount):this(customerId)
+        {
+           // _customerId = customerId;
             _amount = amount;
         }
 
+        //method overloading
+        public void Sum()
+        {
+            Console.WriteLine("no param in sum");
+        }
+
+        public void Sum(int x, int y)
+        {
+            Console.WriteLine("sum with 2 parameters");
+        }
 
         public void ShowAccount()
         {
