@@ -44,13 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="Business-Clothing.cs" />
     <Compile Include="ConstructorDemo.cs" />
     <Compile Include="DecisionControls.cs" />
     <Compile Include="EntryPoint.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="InheritanceAndConstructor.cs" />
+    <Compile Include="InterfaceDemo.cs" />
     <Compile Include="LoopingControl.cs" />
     <Compile Include="MethdosDemo.cs" />
+    <Compile Include="MethodHiding.cs" />
     <Compile Include="NonStaticMethodsDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programmings_day2.cs" />

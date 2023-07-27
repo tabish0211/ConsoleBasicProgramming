@@ -46,11 +46,11 @@ namespace ConsoleBasicProgramming
     public class CallingClass
     {
 
-        public static void Main()
-        {
-            DriveClass obj = new DriveClass(2,3);
-            Console.ReadLine();
+        //public static void Main()
+        //{
+        //    DriveClass obj = new DriveClass(2,3);
+        //    Console.ReadLine();
 
-        }
+        //}
     }
 }
