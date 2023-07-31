@@ -6,38 +6,38 @@ using System.Threading.Tasks;
 
 namespace ConsoleBasicProgramming
 {
-    interface IReader
+    public interface IReader
     {
-       
+
         void Read();
-        
+
     }
 
-    interface Iwriter
+    public interface Iwriter
     {
         void Write();
-       
+
 
     }
 
 
 
     //Interface is a contract to a class, it should define interface members the way its been declared in interface
-    class MSwordOpration : Iwriter,IReader
+    class MSwordOpration : Iwriter, IReader
     {
         public void Read()
         {
-            
+
         }
 
         public void Write()
         {
-            
+
         }
     }
 
     //IInputOutputOperation obj= new PDFOpration();
-    public class PDFOpration : Iwriter,IReader
+    public class PDFOpration : Iwriter, IReader
     {
         public void Read()
         {
@@ -56,9 +56,8 @@ namespace ConsoleBasicProgramming
     public static class Instance
     {
         public static IReader GetInstanceReader()
-        {
-
-           return new PDFOpration();
+        {   
+            return new PDFOpration();
         }
 
         public static Iwriter GetInstanceWriter()
@@ -75,8 +74,7 @@ namespace ConsoleBasicProgramming
         {
             IReader pDF = Instance.GetInstanceReader();
             pDF.Read();
-          
-            
+
             //MSwordOpration mSword = new MSwordOpration();
             //mSword.Read();
             Console.ReadLine();
